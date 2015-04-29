@@ -1,9 +1,5 @@
 #!/bin/sh
 
-echo "Compiling src"
-coffee -c -o lib/ src/
-
-scripts/compile_test.sh
 
 echo "Generating mk-server"
 echo "#!/usr/bin/env node" > bin/mk-server
