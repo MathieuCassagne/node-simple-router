@@ -13,6 +13,6 @@
   "bin":{"mk-server":"./bin/mk-server"},
   "scripts":{"nix_test":"if [ ! -f test/server.js ] || [ test/server.js -ot test/server.coffee ]; then scripts/compile_test.sh; fi && test/server.js",
              "nix_prepublish":"scripts/compile.sh",
-             "test":"cake test",
+             "test":"cake test"
              }
 }
